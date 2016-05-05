@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pack-a-Day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="book-end" id="intro">
+      <h1 id="name">Pack-a-Day</h1>
+      <h1 id="intro-head">Collecting Essentials for the Homeless</h1>
+      <input id="email" type="form" placeholder="Enter your Email to Receive More Info" />
+      </br><button>Submit</button>
+    </div>
+    <div data-bind="foreach: model.sections">
+      <div id="section" data-bind="style: {backgroundColor: color}">
+        <h1 id="title" data-bind="text: title"></h1>
+        <div id="looking" data-bind="foreach: subHead">
+          <ul id="list-head" data-bind="text: listHead"></ul>
+          <li id="list-item" data-bind="text: listItem"></li>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <script src="js/lib/knockout-3.2.0.js"></script>
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/lib/jquery-ui.min.js"></script>
+  <script src="js/script.js"></script>

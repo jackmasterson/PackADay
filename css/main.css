@@ -1,0 +1,87 @@
+* {
+		font-family: 'Indie Flower', cursive;
+		text-align: center;
+		vertical-align: middle;
+}
+html {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+body {
+	margin: 0px;
+
+}
+ul {
+
+}
+li{
+	display: inline-block;
+	padding: 0% 6% 0% 6%;
+}
+h1 {
+	margin: 0px;
+	padding: 15px;
+}
+h3 {
+	margin, padding: 0px;
+}
+button {
+	height: 40px;
+	width: 150px;
+	border-radius: 10px;
+	font-size: 25px;
+	margin-top: 5px;
+	
+}
+#title {
+	font-size: 50px;
+}
+#intro{
+	background: url(..//img/pennies.jpg) no-repeat center center fixed;
+	margin: 0px;
+	padding: 13%;
+}
+#outtro {
+	background: url(..//img/pencil.jpg) no-repeat center center fixed;
+	margin: 0px;
+	padding: 13%;
+}
+#name {
+	font-size: 85px;
+	margin: 15px;
+}
+#email {
+	width: 450px;
+	height: 40px;
+	font-size: 20px;
+}
+#intro-head {
+	padding: 0% 0 7% 0;
+	font-size: 50px;
+	margin: 0px;
+	color: white;
+}
+#section {
+	padding: 10% 0% 10% 0%;
+}
+#white {
+	color: white;
+}
+#list-head {
+	font-size: 25px;
+
+
+}
+#list-item {
+	width: 33.33%;
+}
+
+#text-head {
+	padding: auto 5% 3% 5%;
+	margin: 0% 5% 0% 5%;
+}
+#looking {
+	padding-bottom: 3%;
+}
