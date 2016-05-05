@@ -50,19 +50,6 @@ var model = {
         }
       ],
       color: "#15c188"
-    },
-    {
-      title: "With a Business, School, or Other Organization?",
-      subHead: [
-        {
-          listHead: "We travel around giving presentations about why" +
-            " we're doing what we're doing. Shoot us an email with the below" +
-            " information and we'll be in touch if you're interested!",
-          listItem: ["Put the subject as 'Presentation'", " then include Organization Name",
-          " Contact Info", " and anything else you think is important!"]
-        }
-      ],
-      color: "#f0eb81"
     }
       
   ]
