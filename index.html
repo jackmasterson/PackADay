@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Pack-a-Day</title>
+    <title>Shore Fun Improv</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
@@ -9,25 +9,42 @@
   </head>
   <body>
     <div class="book-end" id="intro">
-      <h1 id="name">Pack-a-Day</h1>
-      <h1 id="intro-head">Collecting Essentials for the Homeless</h1>
-      <input id="email" type="form" placeholder="Enter your Email to Receive More Info" />
-      </br><button>Submit</button>
+      <h1 id="name">Shore Fun Improv</h1>
+      <img id="board" src="img/boarded.png">
+      <h1 id="intro-head">Where Funny Comes to Play</h1>
+    </div>
+    <div id="ron-div">
+      <h1 id="announce">Announcements</h1>
+      <h1>Improv For Ron is Coming!</h1>
+      <img id="ron" src="img/ron.jpg">
+      <h2>Saturday, May 21st</h2>
+      <h3>Come to Manasquan High School's Jack Nicholson Theatre for a night of laughs!</h3>
+      <h3>Help us honor Ron's memory and raise money for MHS Seniors</h3>
+    </div>
+    <div id="funny">
+      <h1 id="name">Shore Fun Improv</h1>
+      <h2 id="intro-head">Everybody's got the funny in them. We just bring it out.</h2>
+      <img id="note" src="img/shakespeare.png"> 
+      <h4>All the world's a stage, and all the men and women merely players. - William Shakespeare</h4>
     </div>
     <div data-bind="foreach: model.sections">
       <div id="section" data-bind="style: {backgroundColor: color}">
         <h1 id="title" data-bind="text: title"></h1>
         <div id="looking" data-bind="foreach: subHead">
           <ul id="list-head" data-bind="text: listHead"></ul>
-          <li id="list-item" data-bind="text: listItem"></li>
+
+          <img class="thumbs" data-bind="visible: src.length > 0, attr: {src: src, 'id': id} ">
+          <li data-bind="text: listItem" id="list-item"></li>
+          </br>
+          <a class="links" target="_blank" data-bind="text: hrefTxt, attr: { href: href }" ></a>
         </div>
       </div>
     </div>
     <div class="book-end" id="outtro">
       <div id="white-back">
-        <h1 id="intro-head">With a Business, School, or Other Organization?</h1>
-        <h2> We travel around giving presentations about why we're doing what we're doing. Shoot us an email with the below information and we'll be in touch if you're interested!</h2>
-        <h3>Put the subject as 'Presentation', then include Organization Name, Contact Info, and anything else you think is important!</h3>
+        <h1 id="intro-head">Want to See Some Great Improv this Summer?</h1>
+        <h2 id="outtro-foot"> This summer, check us out in bi-weekly shows at the Manasquan Community Center.</h2>
+        <h3>Email ShoreFunImprov@gmail.com for more information</h3>
       </div>
     </div>
   </body>

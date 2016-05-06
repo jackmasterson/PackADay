@@ -39,12 +39,14 @@ button {
 	font-size: 50px;
 }
 #intro{
-	background: url(..//img/pennies.jpg) no-repeat center center fixed;
+	background: url(..//img/chairs.jpg) no-repeat center center fixed;
 	margin: 0px;
-	padding: 13%;
+	padding: 5%;
+	background-color: gray;
+	color: white;
 }
 #outtro {
-	background: url(..//img/pencil.jpg) no-repeat center center fixed;
+	background: url(..//img/notebook.jpeg) no-repeat center center fixed;
 	margin: 0px;
 	padding: 13%;
 }
@@ -61,10 +63,30 @@ button {
 	font-size: 20px;
 }
 #intro-head {
-	padding: 0% 0 7% 0;
+	padding: 5% 0 4% 0;
 	font-size: 50px;
 	margin: 0px;
-	color: white;
+}
+#announce {
+	font-size: 45px;
+}
+.links {
+	font-size: 35px;
+}
+.thumbs {
+	height: 150px;
+	width: 120px;
+	border-radius: 15px;
+	border: 1px solid white;
+}
+#note {
+	height: 150px;
+	width: 150px;
+	border: none;
+}
+#board {
+	height: 200px;
+	width: 500px;
 }
 #section {
 	padding: 10% 0% 10% 0%;
@@ -74,8 +96,6 @@ button {
 }
 #list-head {
 	font-size: 25px;
-
-
 }
 #list-item {
 	width: 33.33%;
@@ -88,3 +108,9 @@ button {
 #looking {
 	padding-bottom: 3%;
 }
+#funny{
+	padding: 15px;
+	background-color: #15c188;
+}
+
+
