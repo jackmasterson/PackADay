@@ -38,13 +38,8 @@ button {
 #title {
 	font-size: 50px;
 }
-#intro{
-	background: url(..//img/chairs.jpg) no-repeat center center fixed;
-	margin: 0px;
-	padding: 5%;
-	background-color: gray;
-	color: white;
-}
+
+
 #outtro {
 	background: url(..//img/notebook.jpeg) no-repeat center center fixed;
 	margin: 0px;
